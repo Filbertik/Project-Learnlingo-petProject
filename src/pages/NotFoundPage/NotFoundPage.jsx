@@ -1,7 +1,10 @@
 import Container from "../../components/Container/Container.jsx";
+import { useThemes } from "../../context/ThemesContext.jsx";
 import { Link } from "react-router-dom";
 
 const NotFoundPage = () => {
+  const { theme } = useThemes();
+
   return (
     <section className="flex items-center justify-center min-h-[80vh] px-6">
       <Container className="text-center">
@@ -24,7 +27,7 @@ const NotFoundPage = () => {
         <Link
           to="/"
           className={`inline-block px-10 py-4 rounded-full text-white font-medium transition-all duration-300 hover:scale-105 shadow-md`}
-          style={{ backgroundColor: "green" }}
+          style={{ backgroundColor: theme.mainColor }}
         >
           Go Home
         </Link>

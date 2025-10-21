@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
+import { useThemes } from "../../context/ThemesContext";
 
 export const Navigation = () => {
+  const { theme } = useThemes();
+
   const getLinkClass = (isActive) => {
     const activeClass = `font-bold ${theme.mainText}`;
     const inactiveClass = "font-normal text-[#121417]";

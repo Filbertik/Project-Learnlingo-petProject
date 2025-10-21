@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useThemes } from "../../context/ThemesContext";
 import { AnimatePresence, motion } from "framer-motion";
 import Button from "../Button/Button";
 import { useSelector } from "react-redux";
@@ -9,6 +10,7 @@ import { selectLevel } from "../../redux/filters/selectors.js";
 
 const TeacherCard = ({ teacher, isFavorite, onToggleFavorite }) => {
   const [expandedText, setExpandedText] = useState(false);
+  const { theme } = useThemes();
   const [isOpen, setIsOpen] = useState(false);
 
   const isLoggedIn = useSelector(selectIsLoggedIn);

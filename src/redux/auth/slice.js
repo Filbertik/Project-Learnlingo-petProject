@@ -23,7 +23,7 @@ const authSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      // Register
+      // Reg
       .addCase(registerUser.fulfilled, (state, action) => {
         state.user = action.payload;
         state.isLoggedIn = true;
@@ -32,7 +32,7 @@ const authSlice = createSlice({
       .addCase(registerUser.rejected, (state, action) => {
         state.error = action.payload;
       })
-      // Login
+      // in
       .addCase(loginUser.fulfilled, (state, action) => {
         state.user = {
           email: action.payload.email,
@@ -45,7 +45,7 @@ const authSlice = createSlice({
       .addCase(loginUser.rejected, (state, action) => {
         state.error = action.payload;
       })
-      // Logout
+      // out
       .addCase(logoutUser.fulfilled, (state) => {
         state.user = { email: null, displayName: null, uid: null };
         state.isLoggedIn = false;

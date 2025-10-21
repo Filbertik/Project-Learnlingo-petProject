@@ -1,7 +1,10 @@
 import Button from "../../components/Button/Button";
+import { useThemes } from "../../context/ThemesContext";
 import Container from "../../components/Container/Container";
 import { Link } from "react-router";
 const HomePage = () => {
+  const { theme } = useThemes();
+
   return (
     <main>
       <Container className="xl:px-16">
@@ -11,7 +14,7 @@ const HomePage = () => {
               Unlock your potential with the best{" "}
               <span className="relative inline-block">
                 <span
-                  className={`absolute top-2.5 left-0 right-0 bottom-0 w-[195px] h-10 rounded-lg transition-colors duration-300 `}
+                  className={`absolute top-2.5 left-0 right-0 bottom-0 w-[195px] h-10 rounded-lg transition-colors duration-300 ${theme.highlightBg}`}
                 ></span>
                 <span className="relative italic font-normal">language</span>
               </span>
@@ -29,14 +32,15 @@ const HomePage = () => {
             </Link>
           </div>
           <div className="w-full lg:w-[568px]">
-            <img
-              src="../../assets/images/character-green.png"
-              alt="Character"
-              className="w-full"
-            />
+            <img src={theme.image} alt="Character" className="w-full" />
           </div>
         </section>
-        <section className="relative px-[60px] py-10 rounded-[30px] mb-8 xl:px-[122px] overflow-hidden">
+        <section
+          className="relative px-[60px] py-10 rounded-[30px] mb-8 xl:px-[122px] overflow-hidden"
+          style={{
+            "--dash-color": theme.mainColor,
+          }}
+        >
           <div
             className="absolute inset-0 rounded-[30px] pointer-events-none"
             style={{

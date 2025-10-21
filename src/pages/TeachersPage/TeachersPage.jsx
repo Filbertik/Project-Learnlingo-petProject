@@ -9,6 +9,7 @@ import {
   selectIsLoading,
   selectTeachersItem,
 } from "../../redux/teachers/selectors.js";
+import { useThemes } from "../../context/ThemesContext";
 import Loader from "../../components/Loader/Loader";
 import { selectIsLoggedIn } from "../../redux/auth/selectors.js";
 import Modal from "../../components/Modal/Modal";
@@ -19,6 +20,7 @@ import { resetTeachers } from "../../redux/teachers/slice.js";
 import { resetFilters } from "../../redux/filters/slice.js";
 
 const TeachersPage = () => {
+  const { theme } = useThemes();
   const dispatch = useDispatch();
 
   const teachers = useSelector(selectTeachersItem);
@@ -105,7 +107,7 @@ const TeachersPage = () => {
               <button
                 onClick={handleLoadMore}
                 disabled={isLoading}
-                className={`font-bold text-lg leading-[1.56] px-12 py-4 rounded-xl`}
+                className={`font-bold text-lg leading-[1.56] px-12 py-4 rounded-xl ${theme.buttonBg}`}
               >
                 Load More
               </button>

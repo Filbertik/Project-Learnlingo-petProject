@@ -1,27 +1,27 @@
-## 📘 **Project Overview**
+## **Project Overview**
 
 **LearnLingo** is a web application developed for a company offering online lessons with language tutors.
 The project is built with **React**, uses **Firebase** for backend functionality, **Redux Toolkit** for state management, and **Tailwind CSS** for a clean and modern UI.
 
 The main goal of this project is to create an intuitive, interactive, and visually appealing application that allows users to:
 
-- Find teachers by **language**, **student level**, and **price per hour**
-- View detailed information about each teacher
+- Find teachers by: -**language** -**student level** -**price per hour**
 - Save favorite teachers in the **“Favorites”** section
 - **Book trial lessons** directly within the app
+- View detailed information about each teacher
 - Manage their personal profile after **authentication via Firebase**
 
 ---
 
-## 🧩 **Page Structure**
+## **Page Structure**
 
-### 🏠 **Home - "/"**
+### **Home - "/"**
 
 - Introduces the company’s mission and platform advantages
 - Includes a **“Get Started”** button that redirects to the “Teachers” page
 - Features a modern, animated design built with **Framer Motion** and **responsive layout**
 
-### 👩‍🏫 **Teachers - "/teachers"**
+### **Teachers - "/teachers"**
 
 - Displays a list of teachers with filtering options for:
 
@@ -33,7 +33,7 @@ The main goal of this project is to create an intuitive, interactive, and visual
 - Teacher cards expand with **“Read more”** to show details, experience, and reviews
 - **“Book trial lesson”** button opens a booking modal with validation
 
-### ❤️ **Favorites - "/favorites"**
+### **Favorites - "/favorites"**
 
 - A **private page** available only to authenticated users
 - Displays all teachers the user has marked as favorites
@@ -41,7 +41,7 @@ The main goal of this project is to create an intuitive, interactive, and visual
 
 ---
 
-## 🔐 **Authentication Features**
+## **Authentication Features**
 
 - Registration, login, and logout via **Firebase Authentication**
 - Form validation powered by **React Hook Form** and **Yup**
@@ -50,7 +50,7 @@ The main goal of this project is to create an intuitive, interactive, and visual
 
 ---
 
-## 🎨 **UI and Design**
+## **UI and Design**
 
 - Styled using **Tailwind CSS** for fast, flexible, and responsive design
 - Includes a **Theme Selector** for switching between color themes
@@ -59,7 +59,7 @@ The main goal of this project is to create an intuitive, interactive, and visual
 
 ---
 
-## ⚙️ **Tech Stack**
+## **Tech Stack**
 
 | Category             | Technologies                                        |
 | -------------------- | --------------------------------------------------- |
@@ -74,7 +74,7 @@ The main goal of this project is to create an intuitive, interactive, and visual
 
 ---
 
-## 🧠 **Key Features**
+## **Key Features**
 
 ✅ Firebase Authentication
 ✅ Registration / Login / Logout
@@ -87,7 +87,7 @@ The main goal of this project is to create an intuitive, interactive, and visual
 
 ---
 
-## 🌟 **Why LearnLingo**
+## **Why LearnLingo**
 
 - 🎯 User-friendly interface and fast navigation
 - 🧭 Easy search and filtering for ideal tutors
@@ -100,13 +100,13 @@ The main goal of this project is to create an intuitive, interactive, and visual
 
 ## 👩‍💻 **Developer**
 
-**Frontend Developer:** [Nelli Telunts](https://github.com/amurovnaa)
+**Frontend Developer:** [V K](https://github.com/Filbertik)
 
 ---
 
 ## 🌐 **Live Demo**
 
-🔗 [View LearnLingo on Vercel](https://learnlingo-pet-project.vercel.app/)
+🔗 [View LearnLingo on Vercel](https://project-learnlingo-pet-project.vercel.app/)
 
 ---
 

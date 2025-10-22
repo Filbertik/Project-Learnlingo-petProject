@@ -1,7 +1,6 @@
 ## **Project Overview**
 
-**LearnLingo** is a web application developed for a company offering online lessons with language tutors.
-The project is built with **React**, uses **Firebase** for backend functionality, **Redux Toolkit** for state management, and **Tailwind CSS** for a clean and modern UI.
+**LearnLingo** is a web application developed for a company that offers online language lessons with tutors. The project is built on **React**, uses **Firebase** fdatabase for backend functionality, **Tailwind CSS** for UI styling.
 
 The main goal of this project is to create an intuitive, interactive, and visually appealing application that allows users to:
 

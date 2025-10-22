@@ -9,6 +9,8 @@ const NotFoundPage = () => {
     <section className="flex items-center justify-center min-h-[80vh] px-6">
       <Container className="text-center">
         <h1
+          // className="text-[120px] font-bold leading-none mb-4"
+          // styles={{ color: theme.mainColor }}
           className="text-[120px] font-bold leading-none mb-4"
           style={{ color: theme.mainColor }}
         >

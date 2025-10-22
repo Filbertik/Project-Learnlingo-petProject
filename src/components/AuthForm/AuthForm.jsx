@@ -19,9 +19,9 @@ const authSchemas = {
 };
 
 const AuthForm = ({ type = "login", onSubmit }) => {
-  const schema = authSchemas[type];
-  const dispatch = useDispatch();
   const [visiblePassword, setVisiblePassword] = useState(false);
+  const dispatch = useDispatch();
+  const schema = authSchemas[type];
 
   const {
     register,
@@ -61,7 +61,7 @@ const AuthForm = ({ type = "login", onSubmit }) => {
         <p className="font-normal text-base leading-[1.37] text-[rgba(18,20,23,0.8)] mb-10">
           Thank you for your interest in our platform! In order to register, we
           need some information. Please provide us with the following
-          information
+          information.
         </p>
       )}
       {type === "login" && (

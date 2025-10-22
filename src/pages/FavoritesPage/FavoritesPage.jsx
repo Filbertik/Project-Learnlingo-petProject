@@ -22,7 +22,7 @@ const FavoritesPage = () => {
         <h1 className="text-3xl font-bold mb-8 text-center">Your Favorites</h1>
         {favorites.length === 0 ? (
           <p className="text-center text-lg text-gray-600">
-            You don’t have any favorite teachers yet ❤️
+            You don’t have any favorite teachers yet ❤️.
           </p>
         ) : (
           <TeachersList

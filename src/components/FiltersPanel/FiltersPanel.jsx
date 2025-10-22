@@ -9,10 +9,10 @@ import { selectFilters } from "../../redux/filters/selectors";
 import { Listbox } from "@headlessui/react";
 
 const languages = [
-  "French",
-  "English",
-  "German",
   "Ukrainian",
+  "English",
+  "French",
+  "German",
   "Polish",
   "Spanish",
   "Mandarin Chinese",

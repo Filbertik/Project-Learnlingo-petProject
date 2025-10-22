@@ -12,11 +12,11 @@ const NotFoundPage = () => {
           className="text-[120px] font-bold leading-none mb-4"
           style={{ color: theme.mainColor }}
         >
-          404
+          4 0 4
         </h1>
 
         <h2 className="text-2xl font-semibold text-[#121417] mb-4">
-          Oops! Page not found.
+          Oops!!! Page not found.
         </h2>
 
         <p className="font-normal text-base leading-[1.37] tracking-[-0.02em] text-[rgba(18,20,23,0.7)] mb-10 max-w-[420px] mx-auto">
@@ -29,7 +29,7 @@ const NotFoundPage = () => {
           className={`inline-block px-10 py-4 rounded-full text-white font-medium transition-all duration-300 hover:scale-105 shadow-md`}
           style={{ backgroundColor: theme.mainColor }}
         >
-          Go Home
+          Go Home --/
         </Link>
       </Container>
     </section>

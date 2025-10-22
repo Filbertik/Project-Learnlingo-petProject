@@ -60,7 +60,7 @@ const TeacherCard = ({ teacher, isFavorite, onToggleFavorite }) => {
                 <svg className="mr-2 inline-block w-4 h-4 stroke-0 stroke-current fill-none">
                   <use href="/sprite.svg#icon-book-open"></use>
                 </svg>
-                <span>Lessons online</span>
+                <span>Lessons_online</span>
               </li>
               <li>
                 <svg

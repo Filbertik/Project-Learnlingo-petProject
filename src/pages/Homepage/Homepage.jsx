@@ -27,7 +27,7 @@ const HomePage = () => {
             </p>
             <Link to="/teachers">
               <Button className="max-w-[267px] px-10 lg:max-h-[60px] sm:px-[88px] py-4">
-                Get started
+                Get started.
               </Button>
             </Link>
           </div>
